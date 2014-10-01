@@ -1,0 +1,21 @@
+.stars {
+    .stars-inner {
+        float:right;
+        .icon {
+            float:left;
+            padding-left:4px;
+            padding-right:4px;
+            color:@primary-color;
+            .no-touch & {
+                &:hover {
+                    color:@primary-color;
+                }
+            }
+        }
+    }
+}
+
+.stars-count {
+    float:left;
+    line-height:20px;
+}

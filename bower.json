@@ -1,0 +1,15 @@
+{
+  "name": "adapt-stars",
+  "version": "0.0.1",
+  "homepage": "https://github.com/darylhedley/adapt-stars",
+  "authors": [
+    "Daryl Hedley <darylhedley@gmail.com>"
+  ],
+  "description": "A plugin that enables the learner to collect stars based upon getting question components correct",
+  "main": "/js/adapt-stars.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3"
+}

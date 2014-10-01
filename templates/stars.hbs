@@ -1,0 +1,18 @@
+{{! Maintainers - Daryl Hedley}}
+<div class="stars-inner">
+
+{{#if minimalUi}}
+	<div class="stars-count icon">
+        {{score}}
+    </div>
+    <div class="icon icon-star">
+    </div>
+{{else}}
+    {{#each stars}}
+    <div class="icon {{#if _isCorrect}}icon-star{{else}}icon-star-hollow{{/if}}">
+    </div>
+    {{/each}}
+{{/if}}
+
+    
+</div>
